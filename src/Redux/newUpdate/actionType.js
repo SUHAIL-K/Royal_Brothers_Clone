@@ -1,0 +1,7 @@
+export const LOW_TO_HIGH = "LOW_TO_HIGH"
+export const HIGHT_TO_LOW = "HIGH_TO_LOW"
+
+export const BIKE_FILTER = "BIKE_FILTER"
+
+export const SORTED_LOW_HIGH_FILTER = "SORTED_LOW_HIGH_FILTER"
+export const SORTED_HIGH_LOW_FILTER = "SORTED_HIGH_LOW_FILTER"
