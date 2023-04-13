@@ -1,0 +1,129 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+#home-Footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #373737;
+    color: white;
+}
+
+#main-footer {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 30px 0 30px 0;
+    width: 85%;
+    margin: auto;
+}
+
+#main-footer>div>div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#main-footer>div>div img {
+    margin: 10px;
+}
+
+#main-footer>div>a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+#main-footer>div>hr {
+    background-color: #fed250;
+    margin-top: -20px;
+    margin-left: 2px;
+    padding-bottom: 1px;
+    height: 2px;
+    width: 40px;
+    border: none;
+}
+
+.dotFoot {
+    width: 7px;
+    height: 7px;
+    margin: 2px;
+    background-color: rgb(247, 243, 243);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#subfooter {
+    background-color: #444;
+    text-align: center;
+}
+
+#subfooter>h2 {
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+#subfooter>div {
+    width: 90%;
+    padding: 0 5%;
+}
+
+#subfooter>hr {
+    background-color: #fed250;
+    border: none;
+    width: 50px;
+    border: none;
+    height: 3px;
+    margin-top: -23px;
+}
+
+.dot {
+    height: 2px;
+    width: 2px;
+    margin: 0 5px;
+}
+
+#tail {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#tail>p>img {
+    width: 20px;
+}
+
+.socialmedia>img {
+    width: 25px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .socialmedia {
+        flex-direction: column;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #main-footer {
+        grid-template-columns: 2fr 2fr 1fr;
+    }
+}
+
+/* For small screens */
+@media only screen and (max-width: 480px) {
+    #main-footer {
+        grid-template-columns: 1fr;
+    }
+}
